@@ -1,0 +1,16 @@
+.images-03 {
+  display: flex;
+  width: 200px;
+  margin: 50px;
+}
+.validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+.js-valid {
+  border-color: #4caf50;
+}
+
+.js-invalid {
+  border-color: #f44336;
+}
