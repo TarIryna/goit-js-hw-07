@@ -14,6 +14,8 @@ function onInput(event) {
     amount = Number(event.currentTarget.value);
     boxesContainer.textContent = '';
     boxesCollection = [];
+    size = 30;
+    rgb = 25;
     console.log(amount);
 }
 renderBtn.addEventListener('click', createBoxes);
